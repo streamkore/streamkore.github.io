@@ -1,2 +1,13 @@
-# streamkore.github.io
-Astro marketing site for streamkore
+# Streamkore
+
+Astro-only public marketing site for [streamkore](https://github.com/streamkore).
+
+## Development
+
+```sh
+npm ci --ignore-scripts
+npm test
+npm run build
+```
+
+The static site keeps public marketing separate from the user, organization, and Shared Auth surfaces.
